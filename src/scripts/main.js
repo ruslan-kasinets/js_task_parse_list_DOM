@@ -8,7 +8,7 @@ function parseSalary(str) {
   return salaryNum;
 }
 
-function getSortList(list) {
+function sortList(list) {
   const sortedList = [...list.children];
 
   sortedList.sort(
@@ -29,5 +29,6 @@ function getEmployees(list) {
   }));
 }
 
-getSortList(peopleList);
-getEmployees(peopleList);
+sortList(peopleList);
+
+const employees = getEmployees(peopleList);
