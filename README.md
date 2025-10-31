@@ -41,4 +41,5 @@ You can read about non-standard attributes and dataset [here](https://javascript
 4) Call both functions.
 5) Done.
 
+
 You don't need to change styles or HTML layout in this task. Change only `main.js` file.
